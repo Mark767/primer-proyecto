@@ -1,14 +1,42 @@
 body{
     color:darkgrey;
+    margin: 0;
+    box-sizing: border-box;
     text-align: center;
     font-family: "Arial";
 }
+
+header{
+    display: flex;
+    background-color: #fafafa;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 5%);
+    height: 90px; /*Define la altura de la imagen*/
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul{
+    display:flex;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    padding: 0 8px 0 8px; /*las medidas se manejan de a 4 (recomendacion)*/
+}
+
 h1{
     color:darkblue;
 }
 .primer-parrafo{
     color: darkgoldenrod;
 }
+
 p{
     color: darkgreen;
 }
